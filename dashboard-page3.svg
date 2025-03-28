@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Fond sombre -->
+  <rect width="1200" height="800" fill="#121828" />
+  
+  <!-- Barre latérale gauche -->
+  <rect x="0" y="0" width="120" height="800" fill="#0F1622" />
+  
+  <!-- Logo en haut de la barre latérale -->
+  <circle cx="60" cy="60" r="30" fill="#3A5FD9" />
+  <text x="60" y="65" font-family="Arial" font-size="14" fill="white" text-anchor="middle">AutoRisk</text>
+  
+  <!-- Éléments de navigation -->
+  <rect x="20" y="120" width="80" height="40" rx="5" fill="#162234" />
+  <text x="60" y="145" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Accueil</text>
+  
+  <rect x="20" y="170" width="80" height="40" rx="5" fill="#162234" />
+  <text x="60" y="195" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Performance</text>
+  
+  <rect x="20" y="220" width="80" height="40" rx="5" fill="#213150" />
+  <text x="60" y="245" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Simulation</text>
+  
+  <!-- En-tête principal -->
+  <rect x="120" y="0" width="1080" height="80" fill="#182135" />
+  <text x="150" y="30" font-family="Arial" font-size="18" fill="white">Analyse des Risques Financiers Automobile</text>
+  <text x="150" y="55" font-family="Arial" font-size="24" fill="#4BD4FF" font-weight="bold">Simulation de Scénarios</text>
+  
+  <!-- Barre de date et profil -->
+  <rect x="750" y="20" width="200" height="40" rx="5" fill="#213150" />
+  <text x="850" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle">28 Mars 2025</text>
+  
+  <circle cx="1030" cy="40" r="25" fill="#314675" />
+  <text x="1030" y="45" font-family="Arial" font-size="12" fill="white" text-anchor="middle">JD</text>
+  <text x="980" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="end">Jean Dupont</text>
+  <text x="980" y="45" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="end">Analyste financier</text>
+  
+  <!-- Panneau des paramètres de simulation -->
+  <rect x="150" y="100" width="350" height="350" rx="10" fill="#1F2B3E" />
+  <text x="180" y="130" font-family="Arial" font-size="16" fill="white">Paramètres de Simulation</text>
+  
+  <!-- Sélecteur de scénarios -->
+  <text x="180" y="165" font-family="Arial" font-size="14" fill="white">Scénario :</text>
+  <rect x="180" y="175" width="290" height="40" rx="5" fill="#213150" />
+  <text x="200" y="200" font-family="Arial" font-size="12" fill="white">Récession Économique</text>
+  <text x="450" y="200" font-family="Arial" font-size="12" fill="white">▼</text>
+  
+  <!-- Paramètre Variation des taux d'intérêt -->
+  <text x="180" y="235" font-family="Arial" font-size="14" fill="white">Variation des taux d'intérêt :</text>
+  <rect x="180" y="245" width="290" height="20" rx="10" fill="#314675" />
+  <rect x="180" y="245" width="200" height="20" rx="10" fill="#F05E36" />
+  <circle cx="380" cy="255" r="10" fill="white" stroke="#F05E36" stroke-width="2" />
+  <text x="180" y="275" font-family="Arial" font-size="12" fill="#A0A0A0">-2%</text>
+  <text x="470" y="275" font-family="Arial" font-size="12" fill="#A0A0A0" text-anchor="end">+4%</text>
+  <text x="380" y="275" font-family="Arial" font-size="12" fill="white" text-anchor="middle">+2.5%</text>
+  
+  <!-- Paramètre Prix du carburant -->
+  <text x="180" y="305" font-family="Arial" font-size="14" fill="white">Augmentation du prix du carburant :</text>
+  <rect x="180" y="315" width="290" height="20" rx="10" fill="#314675" />
+  <rect x="180" y="315" width="235" height="20" rx="10" fill="#F05E36" />
+  <circle cx="415" cy="325" r="10" fill="white" stroke="#F05E36" stroke-width="2" />
+  <text x="180" y="345" font-family="Arial" font-size="12" fill="#A0A0A0">0%</text>
+  <text x="470" y="345" font-family="Arial" font-size="12" fill="#A0A0A0" text-anchor="end">+30%</text>
+  <text x="415" y="345" font-family="Arial" font-size="12" fill="white" text-anchor="middle">+25%</text>
+  
+  <!-- Paramètre Inflation -->
+  <text x="180" y="375" font-family="Arial" font-size="14" fill="white">Taux d'inflation :</text>
+  <rect x="180" y="385" width="290" height="20" rx="10" fill="#314675" />
+  <rect x="180" y="385" width="150" height="20" rx="10" fill="#F05E36" />
+  <circle cx="330" cy="395" r="10" fill="white" stroke="#F05E36" stroke-width="2" />
+  <text x="180" y="415" font-family="Arial" font-size="12" fill="#A0A0A0">2%</text>
+  <text x="470" y="415" font-family="Arial" font-size="12" fill="#A0A0A0" text-anchor="end">8%</text>
+  <text x="330" y="415" font-family="Arial" font-size="12" fill="white" text-anchor="middle">5%</text>
+  
+  <!-- Bouton de simulation -->
+  <rect x="240" y="430" width="170" height="40" rx="20" fill="#4BD4FF" />
+  <text x="325" y="455" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">SIMULER</text>
+  
+  <!-- Graphique d'impact sur le portefeuille -->
+  <rect x="520" y="100" width="630" height="350" rx="10" fill="#1F2B3E" />
+  <text x="550" y="130" font-family="Arial" font-size="16" fill="white">Impact sur la Valeur du Portefeuille</text>
+  
+  <!-- Axes du graphique d'impact -->
+  <line x1="550" y1="380" x2="1100" y2="380" stroke="#3A4455" stroke-width="2" />
+  <line x1="550" y1="380" x2="550" y2="150" stroke="#3A4455" stroke-width="2" />
+  
+  <!-- Échelle verticale -->
+  <text x="540" y="160" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="end">+10%</text>
+  <text x="540" y="200" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="end">0%</text>
+  <text x="540" y="240" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="end">-10%</text>
+  <text x="540" y="280" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="end">-20%</text>
+  <text x="540" y="320" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="end">-30%</text>
+  <text x="540" y="360" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="end">-40%</text>
+  
+  <!-- Échelle horizontale - mois -->
+  <text x="550" y="400" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="middle">0</text>
+  <text x="641" y="400" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="middle">3</text>
+  <text x="732" y="400" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="middle">6</text>
+  <text x="823" y="400" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="middle">9</text>
+  <text x="914" y="400" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="middle">12</text>
+  <text x="1005" y="400" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="middle">15</text>
+  <text x="1096" y="400" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="middle">18</text>
+  <text x="825" y="420" font-family="Arial" font-size="12" fill="#A0A0A0" text-anchor="middle">Mois</text>
+  
+  <!-- Lignes de référence horizontales -->
+  <line x1="550" y1="200" x2="1100" y2="200" stroke="#3A4455" stroke-width="1" stroke-dasharray="2,2" />
+  <line x1="550" y1="240" x2="1100" y2="240" stroke="#3A4455" stroke-width="1" stroke-dasharray="2,2" />
+  <line x1="550" y1="280" x2="1100" y2="280" stroke="#3A4455" stroke-width="1" stroke-dasharray="2,2" />
+  <line x1="550" y1="320" x2="1100" y2="320" stroke="#3A4455" stroke-width="1" stroke-dasharray="2,2" />
+  <line x1="550" y1="360" x2="1100" y2="360" stroke="#3A4455" stroke-width="1" stroke-dasharray="2,2" />
+  
+  <!-- Courbes de simulation -->
+  <!-- Scénario de référence -->
+  <path d="M 550 200 L 641 205 L 732 198 L 823 203 L 914 195 L 1005 197 L 1096 190" fill="none" stroke="#A0A0A0" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Scénario de récession économique -->
+  <path d="M 550 200 L 641 240 L 732 270 L 823 290 L 914 310 L 1005 300 L 1096 270" fill="none" stroke="#FF6B5B" stroke-width="3" />
+  <circle cx="550" cy="200" r="5" fill="#FF6B5B" />
+  <circle cx="641" cy="240" r="5" fill="#FF6B5B" />
+  <circle cx="732" cy="270" r="5" fill="#FF6B5B" />
+  <circle cx="823" cy="290" r="5" fill="#FF6B5B" />
+  <circle cx="914" cy="310" r="5" fill="#FF6B5B" />
+  <circle cx="1005" cy="300" r="5" fill="#FF6B5B" />
+  <circle cx="1096" cy="270" r="5" fill="#FF6B5B" />
+  
+  <!-- Légende -->
+  <rect x="820" y="150" width="15" height="15" fill="#A0A0A0" />
+  <text x="845" y="163" font-family="Arial" font-size="12" fill="white">Scénario de référence</text>
+  
+  <rect x="820" y="175" width="15" height="15" fill="#FF6B5B" />
+  <text x="845" y="188" font-family="Arial" font-size="12" fill="white">Récession économique</text>
+  
+  <!-- Point critique -->
+  <circle cx="914" cy="310" r="8" fill="none" stroke="#FF4A4A" stroke-width="2" />
+  <text x="920" y="330" font-family="Arial" font-size="12" fill="#FF4A4A">Point critique: -32%</text>
+  
+  <!-- Graphique d'impact par segment -->
+  <rect x="150" y="470" width="480" height="310" rx="10" fill="#1F2B3E" />
+  <text x="180" y="500" font-family="Arial" font-size="16" fill="white">Impact par Segment de Marché</text>
+  
+  <!-- Axe horizontal de l'histogramme -->
+  <line x1="200" y1="650" x2="410" y2="650" stroke="#3A4455" stroke-width="2" />
+  
+  <!-- Barres de l'histogramme -->
+  <rect x="200" y="570" width="40" height="80" fill="#F05E36" />
+  <text x="220" y="560" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Luxe</text>
+  <text x="220" y="670" font-family="Arial" font-size="12" fill="white" text-anchor="middle">-18%</text>
+  
+  <rect x="250" y="600" width="40" height="50" fill="#4BD4FF" />
+  <text x="270" y="590" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Premium</text>
+  <text x="270" y="670" font-family="Arial" font-size="12" fill="white" text-anchor="middle">-12%</text>
+  
+  <rect x="300" y="530" width="40" height="120" fill="#A66AFF" />
+  <text x="320" y="520" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Milieu</text>
+  <text x="320" y="670" font-family="Arial" font-size="12" fill="white" text-anchor="middle">-28%</text>
+  
+  <rect x="350" y="610" width="40" height="40" fill="#4FD0A9" />
+  <text x="370" y="600" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Économique</text>
+  <text x="370" y="670" font-family="Arial" font-size="12" fill="white" text-anchor="middle">-9%</text>
+  
+  <!-- Recommandations d'optimisation -->
+  <rect x="650" y="470" width="500" height="310" rx="10" fill="#1F2B3E" />
+  <text x="680" y="500" font-family="Arial" font-size="16" fill="white">Recommandations d'Optimisation</text>
+  
+  <!-- Recommandation 1 -->
+  <rect x="680" y="520" width="440" height="60" rx="5" fill="#213150" />
+  <rect x="680" y="520" width="10" height="60" fill="#4FD0A9" />
+  <text x="700" y="540" font-family="Arial" font-size="14" fill="white" font-weight="bold">Augmenter l'exposition au segment économique</text>
+  <text x="700" y="565" font-family="Arial" font-size="12" fill="#A0A0A0">Réduction potentielle des pertes: 8% en scénario de récession</text>
+  
+  <!-- Recommandation 2 -->
+  <rect x="680" y="590" width="440" height="60" rx="5" fill="#213150" />
+  <rect x="680" y="590" width="10" height="60" fill="#4BD4FF" />
+  <text x="700" y="610" font-family="Arial" font-size="14" fill="white" font-weight="bold">Réduire l'exposition aux modèles à forte consommation</text>
+  <text x="700" y="635" font-family="Arial" font-size="12" fill="#A0A0A0">Atténuation de l'impact du prix du carburant: 5.7%</text>
+  
+  <!-- Recommandation 3 -->
+  <rect x="680" y="660" width="440" height="60" rx="5" fill="#213150" />
+  <rect x="680" y="660" width="10" height="60" fill="#FFD166" />
+  <text x="700" y="680" font-family="Arial" font-size="14" fill="white" font-weight="bold">Diversifier vers des modèles hybrides/électriques</text>
+  <text x="700" y="705" font-family="Arial" font-size="12" fill="#A0A0A0">Protection contre la volatilité des prix du carburant: +12%</text>
+  
+  <!-- Image de voiture électrique -->
+  <rect x="400" y="700" width="120" height="60" fill="none" />
+  <path d="M 440 700 L 480 700 Q 490 700 490 710 L 490 730 Q 490 740 480 740 L 440 740 Q 430 740 430 730 L 430 710 Q 430 700 440 700 Z" fill="#4BD4FF" opacity="0.7" />
+  <rect x="455" y="690" width="10" height="5" fill="#4BD4FF" />
+  <circle cx="445" cy="740" r="7" fill="#333" />
+  <circle cx="475" cy="740" r="7" fill="#333" />
+  
+  <!-- Silhouette Tesla sur la droite -->
+  <path d="M 1070 700 L 1120 700 Q 1130 700 1130 690 L 1130 680 Q 1130 670 1120 670 L 1070 670 Q 1060 670 1060 680 L 1060 690 Q 1060 700 1070 700 Z" fill="#F05E36" opacity="0.8" />
+  <circle cx="1075" cy="700" r="7" fill="#333" />
+  <circle cx="1115" cy="700" r="7" fill="#333" />
+</svg>

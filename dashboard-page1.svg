@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Fond sombre -->
+  <rect width="1200" height="800" fill="#121828" />
+  
+  <!-- Barre latérale gauche -->
+  <rect x="0" y="0" width="120" height="800" fill="#0F1622" />
+  
+  <!-- Logo en haut de la barre latérale -->
+  <circle cx="60" cy="60" r="30" fill="#3A5FD9" />
+  <text x="60" y="65" font-family="Arial" font-size="14" fill="white" text-anchor="middle">AutoRisk</text>
+  
+  <!-- Éléments de navigation -->
+  <rect x="20" y="120" width="80" height="40" rx="5" fill="#213150" />
+  <text x="60" y="145" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Accueil</text>
+  
+  <rect x="20" y="170" width="80" height="40" rx="5" fill="#162234" />
+  <text x="60" y="195" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Performance</text>
+  
+  <rect x="20" y="220" width="80" height="40" rx="5" fill="#162234" />
+  <text x="60" y="245" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Simulation</text>
+  
+  <!-- En-tête principal -->
+  <rect x="120" y="0" width="1080" height="80" fill="#182135" />
+  <text x="150" y="30" font-family="Arial" font-size="18" fill="white">Analyse des Risques Financiers Automobile</text>
+  <text x="150" y="55" font-family="Arial" font-size="24" fill="#4BD4FF" font-weight="bold">Vue d'ensemble</text>
+  
+  <!-- Barre de date et profil -->
+  <rect x="750" y="20" width="200" height="40" rx="5" fill="#213150" />
+  <text x="850" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle">28 Mars 2025</text>
+  
+  <circle cx="1030" cy="40" r="25" fill="#314675" />
+  <text x="1030" y="45" font-family="Arial" font-size="12" fill="white" text-anchor="middle">JD</text>
+  <text x="980" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="end">Jean Dupont</text>
+  <text x="980" y="45" font-family="Arial" font-size="10" fill="#A0A0A0" text-anchor="end">Analyste financier</text>
+  
+  <!-- Indicateurs principaux -->
+  <!-- Valeur totale du portefeuille -->
+  <rect x="150" y="100" width="300" height="180" rx="10" fill="#F05E36" />
+  <text x="180" y="130" font-family="Arial" font-size="16" fill="white">Valeur Totale du Portefeuille</text>
+  <text x="180" y="180" font-family="Arial" font-size="42" fill="white" font-weight="bold">€1,243,750</text>
+  
+  <!-- Value at Risk -->
+  <rect x="470" y="100" width="330" height="180" rx="10" fill="#1F2B3E" />
+  <text x="500" y="130" font-family="Arial" font-size="16" fill="white">Value at Risk (VaR) - 95%</text>
+  <text x="500" y="180" font-family="Arial" font-size="42" fill="#FF6B5B" font-weight="bold">€83,240</text>
+  <text x="505" y="210" font-family="Arial" font-size="14" fill="#A0A0A0">Perte potentielle maximale</text>
+  
+  <!-- Sharpe Ratio -->
+  <rect x="820" y="100" width="330" height="180" rx="10" fill="#1F2B3E" />
+  <text x="850" y="130" font-family="Arial" font-size="16" fill="white">Sharpe Ratio</text>
+  <text x="850" y="180" font-family="Arial" font-size="42" fill="#4FD0A9" font-weight="bold">1.87</text>
+  <text x="855" y="210" font-family="Arial" font-size="14" fill="#A0A0A0">Performance ajustée au risque</text>
+  
+  <!-- Allocation par marque automobile -->
+  <rect x="150" y="300" width="450" height="270" rx="10" fill="#1F2B3E" />
+  <text x="180" y="330" font-family="Arial" font-size="16" fill="white">Allocation par Marque</text>
+  
+  <!-- Graphique en anneau pour l'allocation -->
+  <circle cx="375" cy="450" r="100" fill="none" stroke="#333" stroke-width="4" />
+  
+  <!-- Segments du graphique en anneau -->
+  <path d="M 375 450 L 375 350 A 100 100 0 0 1 463 413 z" fill="#F05E36" />
+  <path d="M 375 450 L 463 413 A 100 100 0 0 1 423 538 z" fill="#4BD4FF" />
+  <path d="M 375 450 L 423 538 A 100 100 0 0 1 295 525 z" fill="#A66AFF" />
+  <path d="M 375 450 L 295 525 A 100 100 0 0 1 320 365 z" fill="#4FD0A9" />
+  <path d="M 375 450 L 320 365 A 100 100 0 0 1 375 350 z" fill="#FFD166" />
+  
+  <!-- Légende du graphique -->
+  <rect x="180" y="375" width="15" height="15" fill="#F05E36" />
+  <text x="205" y="388" font-family="Arial" font-size="14" fill="white">Tesla</text>
+  <text x="270" y="388" font-family="Arial" font-size="14" fill="white" text-anchor="end">32%</text>
+  
+  <rect x="180" y="405" width="15" height="15" fill="#4BD4FF" />
+  <text x="205" y="418" font-family="Arial" font-size="14" fill="white">BMW</text>
+  <text x="270" y="418" font-family="Arial" font-size="14" fill="white" text-anchor="end">24%</text>
+  
+  <rect x="180" y="435" width="15" height="15" fill="#A66AFF" />
+  <text x="205" y="448" font-family="Arial" font-size="14" fill="white">Mercedes</text>
+  <text x="270" y="448" font-family="Arial" font-size="14" fill="white" text-anchor="end">20%</text>
+  
+  <rect x="180" y="465" width="15" height="15" fill="#4FD0A9" />
+  <text x="205" y="478" font-family="Arial" font-size="14" fill="white">Toyota</text>
+  <text x="270" y="478" font-family="Arial" font-size="14" fill="white" text-anchor="end">15%</text>
+  
+  <rect x="180" y="495" width="15" height="15" fill="#FFD166" />
+  <text x="205" y="508" font-family="Arial" font-size="14" fill="white">Audi</text>
+  <text x="270" y="508" font-family="Arial" font-size="14" fill="white" text-anchor="end">9%</text>
+  
+  <!-- Image de voiture de luxe -->
+  <rect x="520" y="375" width="70" height="35" rx="5" fill="#444" />
+  <rect x="520" y="410" width="60" height="15" rx="3" fill="#333" />
+  <circle cx="530" cy="425" r="8" fill="#222" stroke="#444" stroke-width="2" />
+  <circle cx="570" cy="425" r="8" fill="#222" stroke="#444" stroke-width="2" />
+  
+  <!-- Carte de volatilité -->
+  <rect x="620" y="300" width="530" height="270" rx="10" fill="#1F2B3E" />
+  <text x="650" y="330" font-family="Arial" font-size="16" fill="white">Heatmap de Volatilité</text>
+  
+  <!-- Grille de la heatmap -->
+  <rect x="650" y="350" width="470" height="200" fill="#1A2435" />
+  
+  <!-- Cellules de la heatmap -->
+  <rect x="650" y="350" width="94" height="40" fill="#4FD0A9" opacity="0.7" />
+  <rect x="744" y="350" width="94" height="40" fill="#81E0C3" opacity="0.7" />
+  <rect x="838" y="350" width="94" height="40" fill="#FFE066" opacity="0.7" />
+  <rect x="932" y="350" width="94" height="40" fill="#FFC266" opacity="0.7" />
+  <rect x="1026" y="350" width="94" height="40" fill="#FF6B5B" opacity="0.7" />
+  
+  <rect x="650" y="390" width="94" height="40" fill="#81E0C3" opacity="0.7" />
+  <rect x="744" y="390" width="94" height="40" fill="#C2F0DF" opacity="0.7" />
+  <rect x="838" y="390" width="94" height="40" fill="#FFE066" opacity="0.7" />
+  <rect x="932" y="390" width="94" height="40" fill="#FFC266" opacity="0.7" />
+  <rect x="1026" y="390" width="94" height="40" fill="#FF8D5B" opacity="0.7" />
+  
+  <rect x="650" y="430" width="94" height="40" fill="#FFE066" opacity="0.7" />
+  <rect x="744" y="430" width="94" height="40" fill="#FFE066" opacity="0.7" />
+  <rect x="838" y="430" width="94" height="40" fill="#FFDA66" opacity="0.7" />
+  <rect x="932" y="430" width="94" height="40" fill="#FFC266" opacity="0.7" />
+  <rect x="1026" y="430" width="94" height="40" fill="#FF8D5B" opacity="0.7" />
+  
+  <rect x="650" y="470" width="94" height="40" fill="#FFC266" opacity="0.7" />
+  <rect x="744" y="470" width="94" height="40" fill="#FFC266" opacity="0.7" />
+  <rect x="838" y="470" width="94" height="40" fill="#FFC266" opacity="0.7" />
+  <rect x="932" y="470" width="94" height="40" fill="#FF8D5B" opacity="0.7" />
+  <rect x="1026" y="470" width="94" height="40" fill="#FF6B5B" opacity="0.7" />
+  
+  <rect x="650" y="510" width="94" height="40" fill="#FF8D5B" opacity="0.7" />
+  <rect x="744" y="510" width="94" height="40" fill="#FF8D5B" opacity="0.7" />
+  <rect x="838" y="510" width="94" height="40" fill="#FF6B5B" opacity="0.7" />
+  <rect x="932" y="510" width="94" height="40" fill="#FF6B5B" opacity="0.7" />
+  <rect x="1026" y="510" width="94" height="40" fill="#FF4A4A" opacity="0.7" />
+  
+  <!-- Texte pour les axes -->
+  <text x="620" y="370" font-family="Arial" font-size="12" fill="white" text-anchor="end">Marques</text>
+  <text x="885" y="570" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Segments de Marché</text>
+  
+  <!-- Indicateurs d'alertes -->
+  <rect x="150" y="590" width="570" height="170" rx="10" fill="#1F2B3E" />
+  <text x="180" y="620" font-family="Arial" font-size="16" fill="white">Alertes de Risques</text>
+  
+  <rect x="170" y="640" width="10" height="30" fill="#FF4A4A" />
+  <text x="190" y="660" font-family="Arial" font-size="14" fill="white">Volatilité des actifs Tesla au-dessus du seuil de 25%</text>
+  
+  <rect x="170" y="680" width="10" height="30" fill="#FFC266" />
+  <text x="190" y="700" font-family="Arial" font-size="14" fill="white">Corrélation élevée entre BMW et Mercedes (0.87)</text>
+  
+  <rect x="170" y="720" width="10" height="30" fill="#FFE066" />
+  <text x="190" y="740" font-family="Arial" font-size="14" fill="white">Modèles Toyota sous-performant de 3.2% par rapport aux attentes</text>
+  
+  <!-- Indicateurs d'objectifs -->
+  <rect x="740" y="590" width="410" height="170" rx="10" fill="#1F2B3E" />
+  <text x="770" y="620" font-family="Arial" font-size="16" fill="white">Objectifs Financiers</text>
+  
+  <!-- Barre de progression pour l'objectif de rendement -->
+  <text x="770" y="650" font-family="Arial" font-size="14" fill="white">Rendement</text>
+  <rect x="770" y="660" width="300" height="15" rx="7" fill="#1A2435" />
+  <rect x="770" y="660" width="195" height="15" rx="7" fill="#A66AFF" />
+  <text x="1085" y="673" font-family="Arial" font-size="12" fill="white">65%</text>
+  
+  <!-- Barre de progression pour l'objectif de diversification -->
+  <text x="770" y="690" font-family="Arial" font-size="14" fill="white">Diversification</text>
+  <rect x="770" y="700" width="300" height="15" rx="7" fill="#1A2435" />
+  <rect x="770" y="700" width="240" height="15" rx="7" fill="#4BD4FF" />
+  <text x="1085" y="713" font-family="Arial" font-size="12" fill="white">80%</text>
+  
+  <!-- Barre de progression pour l'objectif de réduction des risques -->
+  <text x="770" y="730" font-family="Arial" font-size="14" fill="white">Réduction des Risques</text>
+  <rect x="770" y="740" width="300" height="15" rx="7" fill="#1A2435" />
+  <rect x="770" y="740" width="135" height="15" rx="7" fill="#F05E36" />
+  <text x="1085" y="753" font-family="Arial" font-size="12" fill="white">45%</text>
+
+  <!-- Image d'une voiture de sport en bas à droite (silhouette) -->
+  <path d="M 1100 720 L 1140 720 Q 1150 720 1150 710 L 1150 700 Q 1150 690 1140 690 L 1120 690 L 1110 680 L 1090 680 L 1080 690 L 1060 690 Q 1050 690 1050 700 L 1050 710 Q 1050 720 1060 720 Z" fill="#F05E36" opacity="0.8" />
+  <circle cx="1070" cy="720" r="8" fill="#333" />
+  <circle cx="1130" cy="720" r="8" fill="#333" />
+</svg>
